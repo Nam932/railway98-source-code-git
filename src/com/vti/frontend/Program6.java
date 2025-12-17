@@ -130,6 +130,13 @@ public class Program6 {
 //		}
 
 //		// Question 2: Kiểm tra group của account2
+//		Nếu không có group thì sẽ in ra text "Nhân viên này chưa có group"
+//		Nếu có mặt trong 1 hoặc 2 group thì sẽ in ra text "Group của nhân viên
+//		này là Java Fresher, C# Fresher"
+//		Nếu có mặt trong 3 Group thì sẽ in ra text "Nhân viên này là người
+//		quan trọng, tham gia nhiều group"
+//		Nếu có mặt trong 4 group trở lên thì sẽ in ra text "Nhân viên này là
+//		người hóng chuyện, tham gia tất cả các group"
 //
 //		if (account2.groups == null || account2.groups.length == 0) {
 //
@@ -155,17 +162,27 @@ public class Program6 {
 //			System.out.println("Nhân viên này là người hóng chuyện, tham gia tất cả các group");
 //		}
 
-// Question 3 :
+// Question 3 : Sử dụng toán tử ternary để làm Question 1
 		String result = (account2.department == null) ? "Nhân viên này chưa có phòng ban"
 				: "Phòng ban của nhân viên này là: " + account2.department.name;
 
 		System.out.println(result);
 
 // Question 4 : 
+//		Sử dụng toán tử ternary để làm yêu cầu sau:
+//			Kiểm tra Position của account thứ 1
+//			Nếu Position = Dev thì in ra text "Đây là Developer"
+//			Nếu không phải thì in ra text "Người này không phải là Developer"		
+
 		result = ("Dev".equals(account1.position.name)) ? "Đây là Developer" : "Người này không phải là Developer";
 		System.out.println(result);
 
 // Question 5:
+//		Lấy ra số lượng account trong nhóm thứ 1 và in ra theo format sau:
+//			Nếu số lượng account = 1 thì in ra "Nhóm có một thành viên"
+//			Nếu số lượng account = 2 thì in ra "Nhóm có hai thành viên"
+//			Nếu số lượng account = 3 thì in ra "Nhóm có ba thành viên"
+//			Còn lại in ra "Nhóm có nhiều thành viên"
 		int countAccount = group1.accounts.length;
 
 		switch (countAccount) {
@@ -182,7 +199,7 @@ public class Program6 {
 			System.out.println("Nhóm có nhiều thành viên");
 			break;
 		}
-// Question 6: 
+// Question 6: Sử dụng switch case để làm lại Question 2
 		int groupCount = (account2.groups == null) ? 0 : account2.groups.length;
 
 		switch (groupCount) {
@@ -205,7 +222,7 @@ public class Program6 {
 			break;
 		}
 
-// Question 7 :
+// Question 7 :Sử dụng switch case để làm lại Question 4
 		switch (account1.position.name) {
 		case Dev:
 			System.out.println("Đây là Developer");
