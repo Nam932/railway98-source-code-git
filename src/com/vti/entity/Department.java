@@ -1,14 +1,23 @@
 package com.vti.entity;
 
 public class Department {
-	public int id;
-	public String name;
+	private int id;
+	private String name;
 
-	@Override
-	public String toString() {
-		return "Department [id=" + id + ", name=" + name + "]";
+	public Department() {
+		this.id = 0;
 	}
 
-// Alt + Shift + S
+	public Department(String name) {
+		this.id = 0;
+		this.name = name;
+	}
 
+	public int getId() {
+		return id;
+	}
+
+	public String getName() {
+		return name;
+	}
 }

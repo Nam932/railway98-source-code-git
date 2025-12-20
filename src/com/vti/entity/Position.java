@@ -2,11 +2,13 @@ package com.vti.entity;
 
 public class Position {
 	public int id;
-	public PositionName name; // Enum
+	public String name;
 
-//	public enum PositionName {
-//
-//		Dev, Test, Scrum_Master, PM
-//	}
+	public Position() {
+	}
 
+	public Position(int id, String name) {
+		this.id = id;
+		this.name = name;
+	}
 }
