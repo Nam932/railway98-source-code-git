@@ -1,0 +1,4 @@
+Lấy 2 số cuối của số ở Question 2 và in ra.
+Gợi ý:
+Cách 1: convert số có 5 chữ số ra String, sau đó lấy 2 số cuối
+Cách 2: chia lấy dư số đó cho 100
