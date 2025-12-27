@@ -1,6 +1,6 @@
 package com.vti.entity;
 
-public class Mentor extends Person {
+public class Mentor extends Person implements IToDoPerson {
 
 	private int yearsOfExperience;
 
@@ -10,6 +10,18 @@ public class Mentor extends Person {
 
 	public void setYearsOfExperience(int yearsOfExperience) {
 		this.yearsOfExperience = yearsOfExperience;
+
+	}
+
+	@Override
+	public void showInfo() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void login() {
+		// TODO Auto-generated method stub
 
 	}
 }

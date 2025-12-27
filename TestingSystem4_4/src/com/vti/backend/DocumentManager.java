@@ -52,7 +52,7 @@ public class DocumentManager {
 		System.out.print("Enter document ID to delete: ");
 		String id = scanner.nextLine();
 
-		documents.removeIf(d -> d.getDocumentId().equals(id));
+		documents.removeIf(d -> d.getDocumentId().equals(id)); //
 	}
 
 	// c) Display all
@@ -68,7 +68,8 @@ public class DocumentManager {
 		int choice = scanner.nextInt();
 
 		for (Document d : documents) {
-			if (choice == 1 && d instanceof Book || choice == 2 && d instanceof Magazine
+			if (choice == 1 && d instanceof Book || choice == 2 && d instanceof Magazine // instanceof : Lấy ra chủng
+																							// loại trong cac tài liệu
 					|| choice == 3 && d instanceof Newspaper) {
 				d.display();
 			}

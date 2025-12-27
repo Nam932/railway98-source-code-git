@@ -1,7 +1,7 @@
 package com.vti.entity;
 
 // Khai bao thuoc tinh tuong ung
-public class Person {
+public abstract class Person {
 	private int id;
 	private String email;
 	private String username;
@@ -51,13 +51,6 @@ public class Person {
 
 	public void setFullName(String fullName) {
 		this.fullName = fullName;
-	}
-
-	public void showInfo() {
-		System.out.println("ID: " + this.id);
-		System.out.println("email" + this.email);
-		System.out.println("userName: " + this.username);
-		System.out.println("fullName: " + this.fullName);
 	}
 
 }

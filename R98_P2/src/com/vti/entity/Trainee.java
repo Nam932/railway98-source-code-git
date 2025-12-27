@@ -1,6 +1,6 @@
 package com.vti.entity;
 
-public class Trainee extends Person {
+public class Trainee extends Person implements IToDoPerson {
 
 	private String university;
 
@@ -19,5 +19,17 @@ public class Trainee extends Person {
 		System.out.println("FullName" + super.getFullName());
 
 		System.out.println("University: " + this.university);
+	}
+
+	@Override
+	public void showInfo() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void login() {
+		// TODO Auto-generated method stub
+
 	}
 }
