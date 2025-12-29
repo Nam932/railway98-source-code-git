@@ -23,6 +23,9 @@
     <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="com.vti.entity.Staff"/>
     <fullyQualifiedTypeName name="com.vti.entity.IToDoPerson"/>
-    <fullyQualifiedTypeName name="java.security.PublicKey"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.security.PublicKey"/>
+    <fullyQualifiedTypeName name="java.lang.Void"/>
+    <fullyQualifiedTypeName name="com.vti.backend.Excercise1"/>
+    <fullyQualifiedTypeName name="com.vti.backend.Excercise2"/>
 </qualifiedTypeNameHistroy>
