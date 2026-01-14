@@ -8,7 +8,9 @@ import com.vti.entity.Student;
 
 public class Program4 {
 	public static void main(String[] args) {
-
+//		Question 4 (Optional): Set
+//		Tạo 1 danh sách có chứa name của các student không trùng nhau
+//		In ra set đó
 		Excercise3 ex3 = new Excercise3();
 		Excercise4 ex4 = new Excercise4();
 

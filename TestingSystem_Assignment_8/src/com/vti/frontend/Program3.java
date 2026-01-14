@@ -7,7 +7,9 @@ import com.vti.entity.Student;
 
 public class Program3 {
 	public static void main(String[] args) {
-
+//		Question 3 (Optional): Set
+//		Tạo 1 student có property id, name
+//		Khai báo 1 Set students, sau đó làm các chức năng tương tự List
 		Excercise3 ex3 = new Excercise3();
 
 		Set<Student> students = ex3.initStudents();
